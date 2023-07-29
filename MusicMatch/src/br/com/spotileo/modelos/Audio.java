@@ -33,4 +33,12 @@ public class Audio {
     public void reproduzir(){
         this.totalReproducao++;
     }
+
+    public void classifica(){
+        if(totalCurtidas >= 25 ){
+            classificacao = 10;
+        }else{
+            classificacao = 5;
+        }
+    }
 }
